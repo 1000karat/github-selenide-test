@@ -1,6 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/kmgffwjsku6g7j6v?svg=true)](https://ci.appveyor.com/project/1000karat/github-selenide-test)
-[![test](https://github.com/1000karat/github-selenide-test/actions/workflows/test.yaml/badge.svg)](https://github.com/1000karat/github-selenide-test/actions/workflows/test.yaml)
-[![test](https://github.com/1000karat/github-selenide-test/actions/workflows/test.yaml/badge.svg?branch=main&event=push)](https://github.com/1000karat/github-selenide-test/actions/workflows/test.yaml)
+[![Build status](https://ci.appveyor.com/api/projects/status/kmgffwjsku6g7j6v?svg=true)](https://ci.appveyor.com/project/1000karat/github-selenide-test) [![test](https://github.com/1000karat/github-selenide-test/actions/workflows/test.yml/badge.svg)](https://github.com/1000karat/github-selenide-test/actions/workflows/test.yml)
 
 java 11.0.21
 
