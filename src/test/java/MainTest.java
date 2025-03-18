@@ -19,12 +19,20 @@ public class MainTest {
 
     @Test
     public void shouldHavePageSoftAssertionsTest() {
+        String searchTextString = "SoftAssertions";
+        String jUnitSearchString = "JUnit5 extend test class";
+
+
         open("https://github.com/selenide/selenide");
         $("#wiki-tab").click();
-        $("#wiki-pages-filter").setValue("SoftAssertions");
-        $(".filterable-active").shouldHave(Condition.text("SoftAssertions"));
+        $("#wiki-pages-filter").setValue(searchTextString);
+        $(".filterable-active").shouldHave(Condition.text(searchTextString));
 
-        $(".filterable-active").$(byText("SoftAssertions")).click();
-        $(".markdown-body").shouldHave(Condition.text("JUnit5 extend test class"));
+        $(".filterable-active").$(byText(searchTextString)).click();
+        $(".markdown-body").shouldHave(Condition.text(jUnitSearchString));
+        
+        
+        //$(withText(issueNumber)).shouldHave(Condition.visible);
+        //$(withText(issueNumber)).shouldHave(Condition.visible);
     }
 }
