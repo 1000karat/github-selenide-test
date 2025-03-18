@@ -9,8 +9,8 @@ jobs:
       #install java
       - uses: actions/setup-java@v4
         with:
-        distribution: 'corretto'
-        java-version: '11'
+          distribution: 'corretto'
+          java-version: '11'
       #selenoid
       - name: Start selenoid
         uses: Xotabu4/selenoid-github-action@v2
